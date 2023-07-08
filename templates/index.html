@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #87CEEB; /* Sky Blue */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .rounded-container {
+            display: inline-block;
+            background-color: #ff6600; /* Orange */
+            border-radius: 50%;
+            padding: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            color: #fff; /* White */
+            font-size: 40px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #87CEEB, #B0E0E6); /* Blue Gradient */
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="rounded-container">
+        <h1>Welcome To Census Income Prediction</h1>
+        <p>Unlock the power of data to predict income with precision.</p>
+    </div>
+</body>
+</html>
