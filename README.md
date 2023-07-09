@@ -8,11 +8,11 @@ The project utilizes the Adult Income dataset, which consists of a collection of
 # PROJECT_STRUCTURE:
 
 - artifacts/
-                - model.pkl
-                - preprocessor.pkl
-                - raw.csv
-                - test.csv
-                - train.csv
+  - model.pkl
+  - preprocessor.pkl
+  - raw.csv
+  - test.csv
+  - train.csv
 -catboost_info
      - learn
      - tmp
