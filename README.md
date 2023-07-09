@@ -13,8 +13,11 @@ The project utilizes the Adult Income dataset, which consists of a collection of
                 - raw.csv
                 - test.csv
                 - train.csv
+-catboost_info
+     - learn
+     - tmp
 
-  - notebook/
+- notebook/
     - data/
     - EDA_INCOME.ipynb
 
