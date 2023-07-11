@@ -60,7 +60,11 @@ The project utilizes the Adult Income dataset, which consists of a collection of
                         =======================================================================
   #OUTPUT:
   
-![first](https://github.com/aimdatascintist/ML_PROJECT_INCOME_PRICE_PRED/assets/123234894/dcb8c1b9-13e0-4d26-9a99-5628ae5f818b)
+![first](https://github.com/aimdatascintist/ML_PROJECT_INCOME_PRICE_PRED/assets/123234894/59a32136-5a99-46ba-8a80-9a84573aeb3b)
+
+
+![second](https://github.com/aimdatascintist/ML_PROJECT_INCOME_PRICE_PRED/assets/123234894/2c95a689-2443-4f3b-94f8-594bae88b995)
+
 
 
 ![third](https://github.com/aimdatascintist/ML_PROJECT_INCOME_PRICE_PRED/assets/123234894/d45f39b6-bd67-4dae-9132-19413249638d)
@@ -68,9 +72,12 @@ The project utilizes the Adult Income dataset, which consists of a collection of
                         ================================================
   
 
-  *******
+  ****
 
- Uploading Project_.mp4…
+https://github.com/aimdatascintist/ML_PROJECT_INCOME_PRICE_PRED/assets/123234894/890ca106-ab33-4222-916a-77b066a61695
+
+**
+  
 
  ********
 
