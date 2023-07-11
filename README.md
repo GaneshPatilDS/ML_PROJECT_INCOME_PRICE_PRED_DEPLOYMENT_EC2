@@ -1,16 +1,64 @@
-# neurolab-flask
 
-![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png)
+# Adult Income Price Prediction Project
+### This repository contains a project for predicting adult income prices. The goal of this project is to develop a machine learning model that can predict the income level of an individual based on various features such as age, education, occupation, and more.
+
+# Dataset
+The project utilizes the Adult Income dataset, which consists of a collection of attributes describing individuals. The dataset contains both categorical and numerical features, making it suitable for training and evaluating machine learning algorithms.
+
+# PROJECT_STRUCTURE:
+
+- artifacts/
+  - model.pkl
+  - preprocessor.pkl
+  - raw.csv
+  - test.csv
+  - train.csv
+- catboost_info/
+    - learn
+    - tmp
+
+- notebook/
+    - data/
+    - EDA_INCOME.ipynb
+
+- source/
+    - components/
+        - __init__.py
+        - data_ingestion.py
+        - data_transformation.py
+        - model_trainer.py
+
+    - constant/
+        - __init__.py
+
+    - pipeline/
+        - __init__.py
+        - prediction_pipeline.py
+        - training_pipeline.py
+
+    - __init__.py
+    - exception.py
+    - logger.py
+    - utils.py
+
+- static/
+    - style.css
+
+- templates/
+    - form.html
+    - index.html
+    - results.html
+
+- .gitignore
+- README.md
+- app.py
+- requirements.txt
+- setup.py
+- upload_data.py
+   (use to upload a dataset into a MongoDB database)
 
 
-To run flask application 
-
-```
-python app.py
-```
+   
 
 
-To access your flask application open new tab in and paste the url:
-```
-https://{your_url}.ineuron.app:5000/
-```
+

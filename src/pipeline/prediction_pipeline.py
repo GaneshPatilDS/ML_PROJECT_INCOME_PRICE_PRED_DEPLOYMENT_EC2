@@ -57,23 +57,26 @@ class CustomData:
         self.sex = sex
 
     def get_data_as_dataframe(self):
-        try:
-            custom_data_input_dict = {
-                'age':[self.age],
-                'education_num':[self.education_num],
-                'capital_gain':[self.capital_gain],
-                'hours_per_week':[self.hours_per_week],
-                'workclass':[self.workclass],
-                'education':[self.education],
-                'marital_status':[self.marital_status],
-                'occupation':[self.occupation],
-                'relationship':[self.relationship],
-                'race':[self.race],
-                'sex':[self.sex]
-            }
-            df = pd.DataFrame(custom_data_input_dict)
-            logging.info('Dataframe Gathered')
-            return df
-        except Exception as e:
+     try:
+        custom_data_input_dict = {
+            'age': [self.age],
+            'workclass': [self.workclass],
+            'education': [self.education],
+            'education_num': [self.education_num],
+            'marital_status': [self.marital_status],
+            'occupation': [self.occupation],
+            'relationship': [self.relationship],
+            'race': [self.race],
+            'sex': [self.sex],
+            'capital_gain': [self.capital_gain],
+            'hours_per_week': [self.hours_per_week]
+        }
+        # Convert the dictionary to a DataFrame
+        df = pd.DataFrame(custom_data_input_dict)
+
+        return df
+    
+
+     except Exception as e:
             logging.info('Exception Occured in prediction pipeline')
             raise CustomException(e,sys)

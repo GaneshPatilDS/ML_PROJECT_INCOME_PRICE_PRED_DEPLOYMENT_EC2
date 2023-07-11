@@ -100,13 +100,19 @@ class DataTransformation:
             logging.info(f'Test Dataframe head: \n{test_df.head().to_string()}')
 
             target_column_name = 'income'
-            drop_columns = [target_column_name, 'fnlwgt']
+            drop_columns = [target_column_name, 'fnlwgt', 'native_country', 'capital_loss']
 
             input_feature_train_df = train_df.drop(columns=drop_columns, axis=1)
             target_feature_train_df = train_df[target_column_name]
 
             input_feature_test_df = test_df.drop(columns=drop_columns, axis=1)
             target_feature_test_df = test_df[target_column_name]
+
+            logging.info(f'Train(input) Dataframe head: \n{input_feature_train_df.head(2).to_string()}')
+            logging.info(f'Test(input) Dataframe head: \n{input_feature_test_df.head(2).to_string()}')
+
+
+            
 
             ## Transforming using preprocessor obj
             input_feature_train_arr = preprocessing_obj.fit_transform(input_feature_train_df)
